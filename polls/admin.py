@@ -22,6 +22,6 @@ class QuestionAdmin(admin.ModelAdmin):
 
     search_fields = ['question_text']
 
-    list_per_page = 1
+    list_per_page = 10
 
 admin.site.register(Question, QuestionAdmin)
